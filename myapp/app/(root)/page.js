@@ -9,6 +9,7 @@ import {FiArrowDown} from "react-icons/fi"
 const HomePage = () => {
   const { data: session } = useSession();
   const router = useRouter();
+  
 
   useEffect(() => {
     if (session) {

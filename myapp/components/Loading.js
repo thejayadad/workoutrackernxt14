@@ -15,7 +15,7 @@ const Loading = () => {
     }, []);
   return (
     <div>
-          <CircularProgress
+      <CircularProgress
       aria-label="Loading..."
       size="lg"
       value={value}

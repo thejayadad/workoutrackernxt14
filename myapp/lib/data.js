@@ -3,6 +3,7 @@ import db from "./db";
 import Workout from "@/models/Workout";
 import getServerUser from "./getServerUser";
 
+
 export const getUserWorkoutCount = async () => {
   const user = await getServerUser();
   const userEmail = user.email;
